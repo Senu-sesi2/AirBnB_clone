@@ -17,7 +17,7 @@ from models.state import State
 
 
 
-class command(cmd.Cmd):
+class HBNBCommand(cmd.Cmd):
     """ Kennel Class for command """
     prompt = '(cmd) '
     classes = {'BaseModel': BaseModel, 'User': User, 'City': City,
@@ -133,4 +133,4 @@ class command(cmd.Cmd):
                 print('** no instance found **')
 
 if __name__ == '__main__':
-    command().cmdloop()
+    HBNBCommand(cmd.Cmd)().cmdloop()
