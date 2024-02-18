@@ -1,4 +1,4 @@
-his the readme file for this project AirBnB clone - Web static that seeks to explain how to build the front end step-by-step.
+This the readme file for this project AirBnB clone - Web static that seeks to explain how to build the front end step-by-step.
 
 The first step is to “design” / “sketch” / “prototype” each element:
 
